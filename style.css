@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header
+{
+    height: 100vh;
+    background: url("./maker/images/banner.jpg") center center/cover no-repeat; 
+    position: relative;
+}
+/* #navbar #img1{
+    margin-left: 600px; margin-top: 2px;
+}
+#navbar #img2{float: right; padding-right: 50px; padding-top: 1px;}
+
+#hea{margin-left: 300px;}
+ul
+{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#navbar ul{
+    display: flex;
+    margin-left: 800px;
+}
+#navbar ul li a{
+   padding: 20px;
+    color:white;
+    font-weight: 700;
+    font-size: 30px;
+   margin-top: 150px;
+}
+#navbar ul li a:hover
+{
+    border-bottom:  2px solid #e4b95b;
+   
+}
+
+
+ */
+/* srart nav */
+#navbar .box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navbar .list{
+    display: flex;
+    color: #fff;
+    list-style: none; 
+}
+#navbar .list li{
+    margin-inline:10px ;
+    font-size: 20px;
+}
+#navbar .list li a{
+    text-decoration: none;
+    color: white;
+}
+#navbar .list li a:hover{
+    color: #e4b95b;
+}
+#navbar img{
+    margin: 0;
+}
+
+/* -------------end nav---------------- */
+.content{font-size: 50px; color: #fff; letter-spacing: 70px; margin-left:200px; margin-top: 100px; font-family:Georgia, 'Times New Roman', Times, serif
+}
+.Btn
+{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 100px;
+    text-align: center;
+} 
+ .Btn-primary
+{
+    color: #0b0a0a;
+    border: 1px solid #fff;
+    margin-left: 400px;
+
+
+    
+    
+}
+.Btn-primary:hover 
+
+{
+    background: #e4b95b;
+} 
+/* #ico{padding: 40px;}
+#ico2{margin-left: 700px; padding: 20px; } */
+#ico2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 50px;
+
+}
+#ico2 i{padding: 30px;}
+#navbar i{ font-size: 20px; color: rgb(110, 132, 134); padding: 20px; margin-top: 1px; }
+.head6{width: 100%; height: 100vh; padding-top:50px ;}
+#he h2{font-size: 60px; margin-left: 150px; margin-top: 1px;}
+#par p{margin-left: 150px; border: 1px solid black; width: 460px; height: 180px; padding: 30px; font-size: 20px;}
+#ph2 img{float: right; margin-right: 200px;height: 50px; height: 600px;margin-top: -680px;}
+#ph1 img{margin-left: 100px; margin-top: 3px;}
+
+.head3{height:100vh; background-color: darkblue; width: 100%;margin-top:150px;} 
+#so h3{font-size: 50px; color: #fff; margin-left: 200px; margin-top: 80px;padding: 20px;}
+#Pr p{font-size: 20px; border: 2px solid #fff; height:200px; width: 350px;color: #fff; padding: 20px;  margin-left:250px; }
+
+.btn
+{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.btn-secondary
+{
+    color: #0b0a0a;
+    border: 1px solid #fff;   
+}
+
+.btn-secondary:hover 
+
+{
+    background: #e4b95b;
+}
+#iim img{width:700px; height: 500px; float: right; margin-right: 150px;}
+img{margin-top: -450px; padding: -100px;}
+#head4{height: 100vh; width: 100%; background-color: darkblue; margin-top: 120px;}
+#mg img{margin-top: 50px; padding: 50px; }
+#ph h4{ color:#fff; text-align: center;}
+h4{padding-top: 50px; font-size: 60px; padding-bottom: 10px;}
+#ph p{font-size: 20px; color: #fff; padding-left: 70px; text-align: center;}
+#name h5{font-size: 20px;display: inline-block;text-align:justify ; color:#fff;margin-top: -55px; }
+#i{padding-left: 120px; text-align: center;margin-bottom: 10px;}
+#j{margin-left: 400px; }
+#d{margin-left: 400px;}
+.HH {padding-top: 70px; }
+.HH h6{color:black; text-align: center; font-size: 50px;}
+.HH p {font-size: 30px; color:black; padding-left: 70px; text-align: center; line-height: 25px;}
+.head5{height: 100vh; width: 100%; background-color: darkblue; margin-top: 60px;}
+#la{padding-top: 80px;}
+#la .b1{margin-left: 200px; font-size: 30px; color: #fff;}
+.b1{padding:10px}
+.RR{width: 700px; margin: 40px; margin-left: 200px; }
+#tton button{margin-left: 250px; font-size: 30px; padding: 15px; width: 200px;color:#fff;background-color: #fabb32;}
+#tton button:hover{background-color: dimgray;}
+#ico3 i{font-size: 30px; color: #fff;padding: 10px;}
+.last{height: 80vh; width: 100%; background: black; margin-top: 150px; margin-bottom: 50px;}
+#us{padding-left: 150px; padding-top: 150px;}
+#us h6{font-size: 50px; color: #f2ecec;}
+#us p{font-size: 20px; padding-top: 20px; color: #f2ecec;}
+.last #fi{padding-left: 600px; text-align: center; margin-right: 550px; margin-top: -200px;}
+#fi h6{font-size: 50px; color: #f2ecec;}
+#fi p{font-size: 20px; padding-top: 30px; color: #f2ecec;}
+.last #ne{float: right; margin-right: 150px;margin-top: -260px;}
+#ne h6{font-size: 50px; color: #f2ecec;}
+
+#zz{ padding: 50px; font-size: 30px; color: #fff;}
+.p2{padding: 4px;}
+.pl{padding: 4px; margin-top: 50px;}
+#ne .p2:hover
+{
+    background: darkblue;
+}
+
+
+
